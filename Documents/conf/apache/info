@@ -1,0 +1,7 @@
+Apache HTTP Server:
+
+    Buka file konfigurasi Apache yang relevan (misalnya, httpd.conf, apache2.conf, atau file konfigurasi Virtual Host yang terpisah) menggunakan teks editor yang sesuai.
+    Salin konfigurasi Virtual Host yang ingin Anda simpan dan pastekan ke dalam file teks baru atau file konfigurasi terpisah.
+    Simpan file konfigurasi dengan ekstensi .conf atau ekstensi yang relevan untuk mengidentifikasinya sebagai konfigurasi Virtual Host.
+    Anda dapat menyimpan file konfigurasi Virtual Host di direktori /etc/apache2/sites-available (untuk distribusi Linux seperti Ubuntu) atau direktori konfigurasi Virtual Host yang sesuai dengan sistem operasi dan distribusi Apache Anda.
+    Setelah itu, Anda dapat mengaktifkan Virtual Host tersebut dengan menggunakan perintah a2ensite (untuk Ubuntu) atau perintah sejenis yang sesuai dengan distribusi Linux Anda.

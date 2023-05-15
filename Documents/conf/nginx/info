@@ -1,0 +1,7 @@
+Nginx:
+
+    Buka file konfigurasi Nginx utama (biasanya nginx.conf) menggunakan teks editor yang sesuai.
+    Salin blok konfigurasi server atau konfigurasi Virtual Host yang ingin Anda simpan dan pastekan ke dalam file teks baru atau file konfigurasi terpisah.
+    Simpan file konfigurasi dengan ekstensi .conf atau ekstensi yang relevan untuk mengidentifikasinya sebagai konfigurasi Virtual Host.
+    Anda dapat menyimpan file konfigurasi Virtual Host di direktori /etc/nginx/conf.d atau direktori konfigurasi Virtual Host yang sesuai dengan distribusi Nginx Anda.
+    Setelah itu, Anda perlu memastikan bahwa file konfigurasi Virtual Host yang Anda buat telah dimasukkan ke dalam file konfigurasi utama Nginx dengan menggunakan directive include.
